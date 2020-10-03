@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Google Adsense -->
+    <script data-ad-client="ca-pub-4494085001187940" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>Timea</title>
+  </head>
+
+  <body>
+
+    <nav class="nav-menu nav navbar navbar-light navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">Timea</a>
+
+        <button class="navbar-toggler mb-0 mt-0 mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>       
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Custom</a></li>
+            <li class="nav-item"><a class="nav-link" href="pomodoro.html">Pomodoro</a></li>
+            <li class="nav-item"><a class="nav-link" href="hiit.html">HIIT</a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+          <div id="card-container">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row justify-content-center align-items-center">
+        <div class="col-auto">
+          <label class="sr-only" for="hours">Hours</label>
+          <input type="number" class="form-control mb-2" id="hours" placeholder="hours" min="0" max="23">
+        </div>
+        <div class="col-auto">
+          <label class="sr-only" for="minutes">Minutes</label>
+          <input type="number" class="form-control mb-2" id="minutes" placeholder="minutes" min="0" max="59">
+        </div>
+        <div class="col-auto">
+          <label class="sr-only" for="seconds">Seconds</label>
+          <input type="number" class="form-control mb-2" id="seconds" placeholder="seconds" min="0" max="59">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <button class="btn btn-primary mb-2" id="addTimer">Add Timer</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-5 text-center copyright">
+            <span>© Copyright Timea 2020. All Rights Reserved.</span>
+          </div>
+
+          <div class="col-12 offset-sm-1 col-sm-6 text-center disclaimers">
+            <span>
+              Designed by <strong><a href="">BabaKenny</a></strong>
+            </span>
+          </div>
+        </div>        
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+
+
+  </body>
+</html>
